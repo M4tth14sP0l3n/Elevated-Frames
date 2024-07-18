@@ -6,9 +6,10 @@ const Contact = () => {
   return (
     <div className="contact">
       <h2>Contact Me</h2>
-      <p>LinkedIn: https://www.linkedin.com/in/matthias-polen/</p>
       <p>Email: matthias.polen@gmail.com</p>
       <p>Phone: +32 470 66 82 64</p>
+      <p>LinkedIn: <a href='https://www.linkedin.com/in/matthias-polen/' target='blank'>https://www.linkedin.com/in/matthias-polen/</a></p>
+      <p>GitHub: <a href='https://github.com/M4tth14sP0l3n' target='blank'>https://github.com/M4tth14sP0l3n</a></p>
     </div>
   );
 };

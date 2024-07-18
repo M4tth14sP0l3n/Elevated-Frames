@@ -18,6 +18,22 @@ const About = () => {
   <p>
     I believe in the importance of lifelong learning and staying updated with the latest advancements in technology. My goal is to continuously improve my skills and contribute to innovative projects. I am driven by the challenge of solving complex problems and finding efficient solutions. My aim is to leverage my programming skills to create impactful software that addresses real-world issues.
   </p>
+  <h3>Skills</h3>
+  <ul>
+    <li>C#</li>
+    <li>.NET</li>
+    <li>Entity Framework</li>
+    <li>React</li>
+    <li>React Native</li>
+    <li>JavaScript</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>MySQL</li>
+    <li>MongoDB</li>
+    <li>Google Firestore</li>
+    <li>github</li>
+    <li>docker</li>
+  </ul>
 </div>
 
   );

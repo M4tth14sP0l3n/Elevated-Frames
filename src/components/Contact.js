@@ -6,8 +6,8 @@ const Contact = () => {
   return (
     <div className="contact">
       <h2>Contact Me</h2>
-      <p>Email: [your.email@example.com]</p>
-      <p>Phone: [your phone number]</p>
+      <p>Email: matthias.polen@gmail.com</p>
+      <p>Phone: +32 470 66 82 64</p>
     </div>
   );
 };

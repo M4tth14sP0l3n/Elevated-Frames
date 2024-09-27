@@ -1,0 +1,86 @@
+/* General Header styling */
+header {
+    background-color: #333;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Container for titles - align titles on the same line */
+.titles-container {
+    display: flex;
+    justify-content: center; /* Center titles horizontally */
+    align-items: center;
+    gap: 50px; /* Add space between the titles */
+}
+
+/* Title block styling */
+.title {
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+    text-align: center; /* Center text for each title */
+}
+
+.title h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.title h1 a {
+    text-decoration: none;
+    color: inherit; /* Inherit color from title */
+}
+
+.title h1:hover {
+    color: #ddd; /* Slight color change on hover */
+}
+
+/* Sub-list styling */
+.sub-list {
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    top: 65%; /* Position closer to the title */
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+    z-index: 10;
+    min-width: 120px; /* Ensure the dropdown has enough width */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.sub-list li {
+    margin: 5px 0;
+}
+
+.sub-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.sub-list a:hover {
+    color: #bbb;
+}
+
+/* Show sub-list when hovering over the title or the sub-list itself */
+.title:hover .sub-list,
+.title .sub-list:hover {
+    display: block; /* Ensure sub-list stays visible on hover */
+}
+
+/* Specific styling for Camera Legacy and Matthias Polen titles */
+.camera-legacy h1 {
+    color: #9B5DE5; /* Gold for Camera Legacy */
+}
+
+.matthias-polen h1 {
+    color: #3A86FF; /* DodgerBlue for Matthias Polen */
+}

@@ -10,6 +10,7 @@ const Contact = () => {
       <p>Phone: +32 470 66 82 64</p>
       <p>LinkedIn: <a href='https://www.linkedin.com/in/matthias-polen/' target='blank'>https://www.linkedin.com/in/matthias-polen/</a></p>
       <p>GitHub: <a href='https://github.com/M4tth14sP0l3n' target='blank'>https://github.com/M4tth14sP0l3n</a></p>
+      <p>Pexels: <a href='https://www.pexels.com/@matthias-polen-725714564/'>https://www.pexels.com/@matthias-polen</a></p>
     </div>
   );
 };

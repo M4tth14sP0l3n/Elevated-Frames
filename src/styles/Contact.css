@@ -1,5 +1,42 @@
-/* src/styles/Contact.css */
+/* Contact Page Styling */
 .contact {
-    padding: 20px;
-  }
-  
+  background-color: #333;
+  color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #9B5DE5; /* Matches Camera Legacy's gold color */
+}
+
+.contact p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.contact a {
+  color: #1E90FF; /* Matches Matthias Polen's blue */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact a:hover {
+  color: #87CEEB; /* Lighter blue on hover */
+  text-decoration: underline;
+}
+
+.contact p a {
+  word-wrap: break-word; /* Ensures long links break properly */
+}
+
+.contact p:hover {
+  color: #bbb; /* Subtle text color change on hover */
+}

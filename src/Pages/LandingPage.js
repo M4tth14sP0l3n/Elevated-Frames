@@ -11,8 +11,10 @@ const LandingPage = () => {
                 <Header />
             </header>
             <section className="hero">
-                <h2>Your Vision, Our Passion</h2>
-                <p>Capturing moments that matter.</p>
+                <div className='backboard'>
+                    <h2>Your Vision, Our Passion</h2>
+                    <p>Capturing moments that matter.</p>
+                </div>
                 <a href="#portfolio" className="cta-button">View Portfolio</a>
             </section>
             <section id="about" className="about">

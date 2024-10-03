@@ -8,7 +8,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/camera-legacy" element={<CameraLegacyPage />} /> 
+        <Route path="/Camera" element={<CameraLegacyPage />} /> 
         <Route path="/" element={<MatthiasPolenPage />} />
       </Routes>
     </Router>

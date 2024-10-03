@@ -1,8 +1,19 @@
 /* General Header styling */
+
+.headerBackBoard{
+    background-color: #333;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
 header {
     background-color: #333;
     padding-bottom: 20px;
     text-align: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5); /* Box shadow added */
+    border-radius: 15px; /* Rounded corners */
 }
 
 header h1 {
@@ -78,9 +89,9 @@ header h1 {
 
 /* Specific styling for Camera Legacy and Matthias Polen titles */
 .camera-legacy h1 {
-    color: #9B5DE5; /* Gold for Camera Legacy */
+    color: #f7f78a ; /* Gold for Camera Legacy */
 }
 
 .matthias-polen h1 {
-    color: #3A86FF; /* DodgerBlue for Matthias Polen */
+    color: #f7f78a ; /* DodgerBlue for Matthias Polen */
 }

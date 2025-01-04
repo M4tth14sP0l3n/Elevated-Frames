@@ -1,0 +1,39 @@
+.videos {
+    background: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .videos h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .video-gallery video {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .video-gallery-wide {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .video-gallery-wide video {
+    width: 100%;
+    max-width: 1220px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }

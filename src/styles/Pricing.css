@@ -1,0 +1,29 @@
+.pricing {
+    background: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .pricing h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .pricing ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pricing li {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .pricing li::before {
+    content: "•";
+    margin-right: 10px;
+    color: #888;
+  }
+  

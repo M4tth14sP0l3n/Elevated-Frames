@@ -1,42 +1,24 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "../styles/Header.css"; // Importing styles
+import "../styles/Header.css";
 
 const Header = () => {
+  const scrollToSection = (id) => {
+    document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
-    <div className="headerBackBoard">
-      <header className="header">
-        <h1>Welcome!</h1>
-        <div className="titles-container">
-          <div className="title camera-legacy">
-            <h1>
-              <Link to="/Camera">Camera Legacy</Link>
-            </h1>
-            <ul className="sub-list">
-              <li>
-                <Link to="/camera-legacy/VideoCarousel">Video</Link>
-              </li>
-              <li>
-                <Link to="/camera-legacy/FotoCarousel">Foto</Link>
-              </li>
-            </ul>
-          </div>
-          <div className="title matthias-polen">
-            <h1>
-              <Link to="/">Matthias Polen</Link>
-            </h1>
-            <ul className="sub-list">
-              <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
-                <Link to="/contact">Contact</Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </header>
-    </div>
+    <header className="header">
+      <nav className="nav">
+        <ul>
+          <li onClick={() => scrollToSection("home")}>Home</li>
+          <li onClick={() => scrollToSection("fotos")}>Photos</li>
+          <li onClick={() => scrollToSection("videos")}>Videos</li>
+          <li onClick={() => scrollToSection("about")}>About</li>
+          <li onClick={() => scrollToSection("pricing")}>Pricing</li>
+          <li onClick={() => scrollToSection("contact")}>Contact</li>
+        </ul>
+      </nav>
+    </header>
   );
 };
 

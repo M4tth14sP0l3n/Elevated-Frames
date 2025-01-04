@@ -1,31 +1,59 @@
-/* src/App.css */
-.App {
+body {
+  margin: 0;
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
 
-header {
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   background: #333;
-  color: #fff;
-  padding: 10px 0;
+  color: white;
+  z-index: 1000;
 }
 
-header nav ul {
+.nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
-header nav ul li {
-  margin: 0 15px;
+.nav li {
+  padding: 15px 20px;
+  cursor: pointer;
 }
 
-header nav ul li a {
-  color: #fff;
-  text-decoration: none;
+.nav li:hover {
+  background: #555;
 }
 
-main {
-  padding: 5%;
-  padding-top: 0%;
+.sections section {
+  padding: 100px 20px;
+  min-height: 100vh;
+}
+
+.home, .photos, .videos, .about, .contact, .pricing {
+  text-align: center;
+}
+
+.gallery, .video-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+form input, form textarea, form button {
+  width: 80%;
+  max-width: 500px;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Videos.css";
 
-import Video1 from "../videocollection/final web.mp4";
+import Video1 from "../videocollection/Final Web.mp4";
 import thumbnail1 from "../videocollection/Timeline 1_01_00_09_19.jpg";
 import Video2 from "../videocollection/fall run.mp4";
 import thumbnail2 from "../videocollection/Timeline 1_01_00_09_19.jpg";
@@ -9,6 +9,7 @@ import Video3 from "../videocollection/final .mp4";
 import thumbnail3 from "../videocollection/Timeline 1_01_00_09_19.jpg";
 import Video4 from "../videocollection/arm day.mp4";
 import thumbnail4 from "../videocollection/Timeline 1_01_00_09_19.jpg";
+import Video5 from "../videocollection/Promo Me V1.mp4";
 
 const Videos = () => {
   return (
@@ -24,7 +25,11 @@ const Videos = () => {
         <video src={Video2} poster={thumbnail3} controls></video>
         <video src={Video3} poster={thumbnail4} controls></video>
       </div>
-      
+      <h2></h2>
+
+      <div className="video-gallery-wide">        
+        <video src={Video5}  poster={thumbnail1} controls></video>
+      </div>
     </section>
   );
 };

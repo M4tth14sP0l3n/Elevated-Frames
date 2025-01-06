@@ -1,4 +1,4 @@
-.pricing {
+/* .pricing {
     background: #f9f9f9;
     padding: 50px 20px;
     text-align: center;
@@ -26,4 +26,92 @@
     margin-right: 10px;
     color: #888;
   }
-  
+   */
+
+
+
+   /* General Styles */
+.pricing {
+  background: #f9f9f9;
+  padding: 50px 20px;
+  text-align: left; /* Changed to left-align for better readability */
+  max-width: 800px;
+  margin: 0 auto; /* Centers the content on the page */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing h1 {
+  font-size: 2.5em;
+  color: #222;
+  text-align: center; /* Keeps the header centered */
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.pricing h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+  color: #444;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.pricing ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pricing li {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+/* Bullet styling */
+.pricing li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #888;
+  font-size: 1.5em;
+}
+
+/* Strong emphasis on package names */
+.pricing li strong {
+  color: #333;
+  font-weight: bold;
+}
+
+/* Nested lists styling */
+.pricing ul ul {
+  margin-left: 20px;
+  padding-left: 15px;
+  border-left: 2px solid #eee;
+}
+
+.pricing ul ul li {
+  margin-bottom: 8px;
+  font-size: 1em;
+  color: #666;
+}
+
+/* Paragraph and contact note */
+.pricing p {
+  font-size: 1.1em;
+  color: #777;
+  margin-top: 15px;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Add hover effect for interactivity */
+.pricing li:hover {
+  color: #000;
+  transition: color 0.3s ease-in-out;
+}
+

@@ -13,9 +13,7 @@ Mijn kracht ligt in het combineren van dynamische dronebeelden met hoogwaardige 
 Laat me weten hoe ik jouw project mag vastleggen – samen maken we iets bijzonders!
 
 </p>
-      <div className="introduction video">
-        <video src="/path-to-video1.mp4" controls></video>
-      </div>
+    
     </section>
   );
 };

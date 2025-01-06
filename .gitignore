@@ -27,10 +27,3 @@ yarn-error.log*
 .env
 .env.build
 .vercel
-
-
-# Ignore video files
-*.mp4
-*.mov
-*.avi
-*.mkv

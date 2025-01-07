@@ -8,20 +8,14 @@ import Contact from "./components/Contact";
 import Pricing from "./components/Pricing";
 import "./App.css";
 
-// Firebase imports
-import { app } from "./config/firebase";
-import { getFirestore } from "firebase/firestore";
-
 function App() {
-  const firestore = getFirestore(app);
-
   return (
     <div className="App">
       <Header />
       <div className="sections">
         <Home />
-        <Fotos firestore={firestore} />
-        <Videos firestore={firestore} />
+        <Fotos/>
+        <Videos/>
         <About />
         <Pricing />
         <Contact />

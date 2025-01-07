@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { collection, getDocs } from "firebase/firestore";
+//import { collection, getDocs } from "firebase/firestore";
 import "../styles/Videos.css";
 
 const Videos = ({ firestore }) => {

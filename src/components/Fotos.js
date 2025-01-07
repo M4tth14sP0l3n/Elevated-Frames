@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { collection, getDocs } from "firebase/firestore";
+import { getStorage, ref } from "firebase/storage";
+import storage from "./firebase";
 import "../styles/Fotos.css";
 
 const Fotos = ({ firestore }) => {
@@ -10,7 +11,7 @@ const Fotos = ({ firestore }) => {
   // Fetch photos from Firestore
   const fetchPhotos = async () => {
     try {
-      const fotosCollection = collection(firestore, "photos"); // Replace "photos" with your Firestore collection name
+      const fotosCollection = collection(firestore, "fotos"); // Replace "photos" with your Firestore collection name
       const fotosSnapshot = await getDocs(fotosCollection);
       const fotosList = fotosSnapshot.docs.map((doc) => doc.data());
       setPhotos(fotosList);

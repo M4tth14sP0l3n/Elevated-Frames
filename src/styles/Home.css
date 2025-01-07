@@ -1,21 +1,32 @@
 .home {
-    background: url("/public/Timeline 1_01_00_30_00_01.jpg") center/cover no-repeat;
-    color: #333333     ;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-  }
-  
-  .home h1 {
-    font-size: 3em;
-    margin: 0;
-  }
-  
-  .home p {
-    font-size: 1.2em;
-    margin-top: 10px;
-  }
-  
+  background: url("/public/Timeline 1_01_00_30_00_01.jpg") center/cover no-repeat;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+}
+
+.text-container {
+  background-color: rgba(255, 255, 255, 0.6); /* Slightly more transparent */
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: -50px;
+}
+
+.home h1 {
+  font-size: 3em;
+  margin: 0;
+  color: #6C8EA4; /* Steel blue */
+}
+
+.home p {
+  font-size: 1.4em;
+  margin-top: 10px;
+  color: 4F5B63; /* Cadet blue */
+}

@@ -15,21 +15,28 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
-form input, form textarea, form button {
+form input, form textarea, form button, form select {
   width: 80%;
   max-width: 500px;
-  padding: 10px;
+  padding: 15px;
   border: none;
   border-radius: 5px;
-  font-size: 1em;
-}
-
-form input, form textarea {
+  font-size: 1.1em;
   background: #444;
   color: white;
+}
+
+form input:focus, form textarea:focus, form select:focus {
+  outline: none;
+  border: 2px solid #555;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 150px;
 }
 
 form button {
@@ -37,6 +44,7 @@ form button {
   color: white;
   cursor: pointer;
   transition: background 0.3s;
+  font-size: 1.2em;
 }
 
 form button:hover {
@@ -45,4 +53,16 @@ form button:hover {
 
 form button:active {
   background: #999;
+}
+
+form select {
+  appearance: none; /* Remove default dropdown styling */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #444;
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  padding-right: 40px;
+  width: 80%; /* Ensure dropdown matches input field width */
+  max-width: 500px; /* Matches the maximum width of input fields */
 }

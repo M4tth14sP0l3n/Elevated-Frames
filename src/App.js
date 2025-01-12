@@ -11,14 +11,14 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       <div className="sections">
         <Home />
-        <Fotos/>
+        {/* <Fotos/>
         <Videos/>
         <About />
         <Pricing />
-        <Contact />
+        <Contact /> */}
       </div>
     </div>
   );

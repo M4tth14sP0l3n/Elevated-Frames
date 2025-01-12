@@ -4,67 +4,64 @@ import "../styles/Pricing.css";
 const Pricing = () => {
   return (
     <section id="pricing" className="pricing">
-      <h1>Photography & Videography Services – Pricing Overview</h1>
+      <h1>Fotografie & Videografie Diensten – Prijzenoverzicht</h1>
 
-      <h3>Photography Packages</h3>
+      <h3>Fotografie Pakketten</h3>
       <div>
         <p>
-          <strong>Event Photography</strong>
+          <strong>Evenementfotografie</strong>
         </p>
         <div>
           <p>
-            <strong>Basic:</strong> 4 hours, 200–300 photos, basic editing, 1
-            location - €350
+            <strong>Basis:</strong> 4 uur, 200–300 foto’s, basisbewerking, 1 locatie - €325
           </p>
           <p>
-            <strong>Standard:</strong> 8 hours, 400–600 photos, advanced
-            editing, 2 locations - €600
+            <strong>Standaard:</strong> 8 uur, 400–600 foto’s, geavanceerde bewerking, 2 locaties - €600
           </p>
           <p>
-            <strong>Premium:</strong> 10–12 hours, 600+ photos, full event
-            coverage, advanced retouching - €1,100
+            <strong>Premium:</strong> 10–12 uur, 600+ foto’s, volledige evenement, geavanceerde retouching - €1.100
           </p>
         </div>
       </div>
 
-      <h3>Videography Packages</h3>
+      <h3>Videografie Pakketten</h3>
       <div>
         <p>
-          <strong>Event Videography</strong>
+          <strong>Evenementvideografie</strong>
         </p>
         <div>
           <p>
-            <strong>Basic:</strong> 4 hours, 3–5 min video, basic editing, 1
-            location - €450–€550 <br />
-            *Includes 1 revision.*
+            <strong>Basis:</strong> 4 uur, 3–5 minuten video, basisbewerking, 1 locatie - €450–€550 <br/>
+            *Inclusief 1 revisie.*
           </p>
           <p>
-            <strong>Standard:</strong> 8 hours, 5–7 min video, advanced
-            editing, 2 locations, teasers - €800–€1000 <br />
-            *Includes 2 revisions.*
+            <strong>Standaard:</strong> 8 uur, 5–7 minuten video, geavanceerde bewerking, 2 locaties, teasers - €800–€1.000 <br />
+            *Inclusief 2 revisies.*
           </p>
           <p>
-            <strong>Premium:</strong> 10–12 hours, full-length video, drone
-            footage, cinematic editing - €2,000–€3,000 <br />
-            *Includes 2 revisions.*
+            <strong>Premium:</strong> 10–12 uur, volledige video, dronebeelden, cinematische bewerking - €1.500–€2.000 <br />
+            *Inclusief 2 revisies.*
           </p>
         </div>
       </div>
 
-      <h3>Add-Ons & Extras</h3>
+      <h3>Extra Opties & Toevoegingen</h3>
       <div>
-        <p>Drone Footage: €120-€300</p>
-        <p>Extended Hours: €85/hour</p>
-        <p>Rush Editing: +20% of package price</p>
-        <p>Additional Revisions: €75/hour</p>
-        <p>Night Shooting: +30% surcharge</p>
+        <p>Dronebeelden: €120-€300</p>
+        <p>Extra uren: €85/uur</p>
+        <p>Snel levering: +20% van de pakketprijs</p>
+        <p>Extra revisies: €75/uur</p>
+        <p>Nachtopnames: +30% toeslag</p>
       </div>
 
-      <h3>Custom Video Packages</h3>
+      <h3>Aangepaste Videopakketten</h3>
       <p>
-        *voor een offerte op maat, neem contact op via
-        het contactformulier.*
+        *Voor een offerte op maat, neem contact op via
+        de contactpagina.*
+        {/* *Voor een offerte op maat, neem contact op via
+        het contactformulier.* */}
       </p>
+      <p>*Alle prijzen exclusief btw*</p>
     </section>
   );
 };

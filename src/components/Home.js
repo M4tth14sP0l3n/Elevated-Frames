@@ -6,8 +6,7 @@ const Home = () => {
     <section id="home" className="home">
       <div className="text-container">
         <h1>Welcome to Elevated Frames</h1>
-        {/* <p>Photographer, videographer, and drone pilot.</p> */}
-        <p className="coming-soon">Coming Soon</p>
+        <p>Photographer, videographer, and drone pilot.</p>
       </div>
     </section>
   );

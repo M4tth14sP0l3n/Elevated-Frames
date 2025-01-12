@@ -1,4 +1,4 @@
-/* .about {
+ .about {
   background: linear-gradient(135deg, #e0e0e0, #f8f8f8); 
   padding: 60px 30px; 
   text-align: center;
@@ -26,57 +26,5 @@
 
 .about p:last-child {
   margin-bottom: 0; 
-} */
+} 
 
-
-.home {
-  background: url("/public/Timeline 1_01_00_30_00_01.jpg") center/cover no-repeat;
-  color: #333333;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  text-align: center;
-  position: relative;
-}
-
-.text-container {
-  background-color: rgba(255, 255, 255, 0.8); /* More transparency for a modern look */
-  padding: 30px;
-  border-radius: 16px;
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
-  position: relative;
-  top: -50px;
-}
-
-.home h1 {
-  font-size: 3em;
-  margin: 0;
-  color: #6C8EA4; /* Steel blue */
-}
-
-.home p {
-  font-size: 1.4em;
-  margin-top: 10px;
-  color: #4F5B63; /* Cadet blue */
-}
-
-.coming-soon {
-  margin-top: 20px;
-  font-size: 1.6em;
-  font-weight: bold;
-  color: #AF002D; /* Bold red for emphasis */
-  text-transform: uppercase;
-  animation: fade-in 2s ease-in-out infinite alternate;
-}
-
-/* Adding subtle animation for "Coming Soon" */
-@keyframes fade-in {
-  from {
-    opacity: 0.6;
-  }
-  to {
-    opacity: 1;
-  }
-}

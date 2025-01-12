@@ -1,10 +1,5 @@
-.contact {
-  background: #333;
-  color: white;
-  padding: 50px 20px;
-  text-align: center;
-}
-
+ 
+/*
 .contact h2 {
   margin-bottom: 30px;
   font-size: 2em;
@@ -56,13 +51,112 @@ form button:active {
 }
 
 form select {
-  appearance: none; /* Remove default dropdown styling */
+  appearance: none; 
   -webkit-appearance: none;
   -moz-appearance: none;
   background: #444;
   background-position: right 10px center;
   background-repeat: no-repeat;
   padding-right: 40px;
-  width: 80%; /* Ensure dropdown matches input field width */
-  max-width: 500px; /* Matches the maximum width of input fields */
+  width: 80%; 
+  max-width: 500px; 
+} */
+
+
+.contact {
+  background: #333;  /* Keeps the dark background */
+  color: white;  /* White text color for readability */
+  padding: 60px 20px; /* Extra space for visual balance */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
+
+.contact h2 {
+  font-size: 2.5em;
+  color: #f0f0f0;  /* Light grey for the heading */
+  margin-bottom: 20px;
+  font-weight: 600; /* Slightly bolder for emphasis */
+}
+
+.contact p {
+  font-size: 1.2em;
+  color: #bbb;  /* Lighter grey text for better readability */
+  margin-bottom: 40px;
+  line-height: 1.5; /* Improved line height for readability */
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; /* Increased gap for better spacing */
+  margin-bottom: 40px; /* Added space below contact-info section */
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Adjusted the gap between the icon and text */
+  justify-content: center; /* Ensures the content is centered */
+}
+
+.contact-item a {
+  font-size: 1.2em;
+  color: #5fa8d3;  /* Light blue for links */
+  text-decoration: none;
+  transition: color 0.3s;
+  display: flex;
+  align-items: center; /* Align icon and text */
+}
+
+.contact-item a:hover {
+  color: #3a87c2;  /* Darker blue on hover */
+}
+
+.contact-item .icon {
+  font-size: 1.5em;
+  color: #f0f0f0;  /* Light color for icons to match text */
+}
+
+.personal-info {
+  margin-top: 40px;
+  font-size: 1.1em;
+  color: #f0f0f0;  /* Matches the header text color */
+  text-align: center; /* Ensures text is centered */
+}
+
+.personal-info a {
+  color: #5fa8d3;  /* Light blue for personal info links */
+  text-decoration: none;
+}
+
+.personal-info a:hover {
+  color: #3a87c2;  /* Darker blue on hover */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .contact h2 {
+    font-size: 2em;
+  }
+
+  .contact p {
+    font-size: 1em;
+  }
+
+  .contact-item a {
+    font-size: 1em;
+  }
+
+  .contact-item .icon {
+    font-size: 1.2em;
+  }
+}
+
+
+
+
+

@@ -5,8 +5,8 @@ const Home = () => {
   return (
     <section id="home" className="home">
       <div className="text-container">
-        <h1>Welcome to Elevated Frames</h1>
-        <p>Photographer, videographer and drone pilot.</p>
+        <h1>Welcome bij Elevated Frames</h1>
+        <p>Fototgraaf, Videograaf en drone piloot.</p>
       </div>
     </section>
   );

@@ -103,46 +103,20 @@ const Contact = () => {
   return (
     <section id="contact" className="contact">
       <h2>Contact & Socials</h2>
-      <p>
-        Hoi, ik ben Matthias. Neem contact op via een van de onderstaande kanalen of socials. Ik kijk ernaar uit om samen te werken aan jouw volgende project!
-      </p>
+      
+      <div className="personal-info">
+        <p>
 
-      <div className="contact-info">
-        <div className="contact-item">
-          <FiMail className="icon" />
-          <a href="mailto:matthias@elevatedframes.be">matthias@elevatedframes.be</a>
-        </div>
-        <div className="contact-item">
-          <FaFacebook className="icon" />
-          <a href="https://www.facebook.com/matthias.polen/" target="_blank" rel="noopener noreferrer">
-            Facebook
-          </a>
-        </div>
         <div className="contact-item">
           <FaInstagram className="icon" />
           <a href="https://www.instagram.com/elevated_frames/" target="_blank" rel="noopener noreferrer">
             Instagram
           </a>
         </div>
-        <div className="contact-item">
-          <FaLinkedin className="icon" />
-          <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
-            LinkedIn
-          </a>
-        </div>
-        <div className="contact-item">
-          <FaYoutube className="icon" />
-          <a href="https://www.youtube.com/c/yourchannel" target="_blank" rel="noopener noreferrer">
-            YouTube
-          </a>
-        </div>
-      </div>
-
-      <div className="personal-info">
-        <p>
-          📍 Gevestigd in: Belgie/Gent<br />
           📞 Telefoon: <a href="tel:+32 470 66 82 64">+32 470 66 82 64</a><br />
-          📧 E-mail: <a href="mailto:matthias@elevatedframes.be">matthias@elevatedframes.be</a>
+          📧 E-mail: <a href="mailto:matthias.polen@gmail.com">matthias.polen@gmail.com</a>
+          <br />
+          📍 Gevestigd in: Belgie/Gent<br />
         </p>
       </div>
     </section>

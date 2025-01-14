@@ -10,7 +10,7 @@ import photo6 from "../fotocollection/DSC01578.jpg";
 const Fotos = () => {
   return (
     <section id="fotos" className="fotos">
-      <h2>photos</h2>
+      <h2>Photos</h2>
       <div className="gallery">      
         <img src={photo1} alt="Sample 1" />
         <img src={photo2} alt="Sample 2" />

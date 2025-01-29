@@ -114,7 +114,7 @@ const Contact = () => {
           </a>
         </div>
           📞 Telefoon: <a href="tel:+32 470 66 82 64">+32 470 66 82 64</a><br />
-          📧 E-mail: <a href="mailto:matthias.polen@gmail.com">matthias.polen@gmail.com</a>
+          📧 E-mail: <a href="mailto:matthias@elevatedframes.be">matthias@elevatedframes.be</a>
           <br />
           📍 Gevestigd in: Belgie/Gent<br />
         </p>

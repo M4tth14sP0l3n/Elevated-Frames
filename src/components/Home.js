@@ -6,7 +6,7 @@ const Home = () => {
     <section id="home" className="home">
       <div className="text-container">
         <h1>Welcome bij Elevated Frames</h1>
-        <p>Fototgraaf, Videograaf en drone piloot.</p>
+        <p>Foto, Video en drone beelden.</p>
       </div>
     </section>
   );

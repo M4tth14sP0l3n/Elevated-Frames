@@ -18,6 +18,7 @@ const Fotos = () => {
 
   const closeModal = (e) => {
     if (e.target.classList.contains("fullscreen-modal") || e.key === "Escape") {
+      setSelectedIndex(null);
     }
   };
 

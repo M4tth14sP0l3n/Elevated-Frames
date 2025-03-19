@@ -19,13 +19,13 @@ import thumbnail7 from "../videocollection/Bas After thumbnail.jpg";
 const Videos = () => {
   return (
     <section id="videos" className="videos">
-      <h2>Proffesiobnal videos videos</h2>
+      <h2>professionele videos</h2>
       <div className="video-gallery-wide">    
         <video src={Video6}  poster={thumbnail6} controls></video>    
         <video src={Video5}  poster={thumbnail5} controls></video>
         <video src={Video1}  poster={thumbnail1} controls></video>
       </div>
-      <h2>Recreational/social media videos</h2>
+      <h2>Recreationele/social media videos</h2>
 
       <div className="video-gallery">
         <video src={Video7} poster={thumbnail2} controls></video>
